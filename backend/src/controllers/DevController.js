@@ -25,7 +25,7 @@ module.exports = {
         
             const location = {
                 type: 'Point',
-                coordinates: [longitude, latitude]
+                coordinates: [latitude, longitude]
             };
             
              dev = await Dev.create({
